@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-nav{
+    background: linear-gradient(0.25turn, #8C3590, #2C4982);
+}
+.logo{
+   color: #fbb44a;
+   font-size: 24px;
+}
+.nav-item > a{
+    color: white !important;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.buttonNav{
+    border: 1px solid #fbb44a;
+    width: 200;
+    background-color: transparent;
+    margin-left: 20 !important;
+    color: #fff;
+    padding-top: 40;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    outline: none;
+    transition: 0.4s ease;
+}
+.buttonNav:hover{
+    background-color:#282828;
+    color: #fbb44a;
+    cursor: pointer;
+}
+.buttonNav:focus{
+    outline: none;
+}
+
+.nav-link:hover{
+    width: 100%;
+    color:#fbb44a !important;
+    text-decoration: underline !important;
+}
+.hero-wrap{
+    background: linear-gradient(0.25turn, #8C3590, #2C4982);
+    height:77vh;
+}
+.headingBold{
+    color: #fff;
+    font-weight: 700 !important;
+}
+.paragraphLanding{
+    font-size: 20px;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+.border-img{
+    position: absolute;
+    bottom: 4rem;
+    z-index: 111111;
+}
+.video{
+    height: 300px;
+    width: 100%;
+}
+.iframe_container{
+    border: 1px solid #fbb44a;
+    margin-top: 30px;
+}
+.button_learnMore{
+    border: 3px solid #2C4982;
+    background-color: #8C3590;
+    padding: 16px 50px 14px 50px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    width: 230px;
+    text-transform: capitalize;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 36px 129px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 36px 129px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 36px 129px 1px rgba(0,0,0,0.75);
+}
+.button_learnMore:hover{
+    background-color: #fbb44a;
+    cursor: pointer;
+}
+.buttons{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+}
+.button_downloadApp{
+    border: 5px solid #8C3590;
+    background-color:#fbb44a;
+    padding: 14px 50px 14px 50px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    width: 230px;
+    text-transform: capitalize;
+    box-shadow: 10px 36px 129px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 36px 129px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 36px 129px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.textContainer{
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+.textCrypto{
+    display: block;
+    margin: 0 auto;
+    color: #7f2d92;
+    font-size: 1.4em;
+    font-weight:300;
+}
+.container_middle{
+    margin-top: 50px;
+}
+.middle_right{
+    align-items: center !important;
+    justify-content: center !important;
+}
+.buttonMiddle{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 24px;
+}
+.buttonMiddle2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.btnMiddleDesign{
+    background-color: transparent;
+    color: #8C3590;
+    width: 100;
+    border: 1px solid #fbb44a;
+    padding: 6px 20px 6px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btnMiddleDesign:hover{
+    color: #2C4982 !important;
+}
+.buttons-mob{
+    align-items: center !important;
+    justify-content: center;
+    display: none;
+}
+.mainCardContainer{
+    margin-top:120px !important;
+}
+.cardTitle{
+    font-size: 20px;
+    font-weight: bold !important;
+    text-transform: capitalize;
+    margin: 20px 0 15px;
+}
+.cardText{
+    font-size: 15px;
+    line-height: 28px;
+    color: #777;
+    width:260px;
+}
+.btnMiddleDesign:focus{
+    outline: none;
+}
+
+.main_DownloadApp{
+    background: linear-gradient(0.25turn, #8C3590, #2C4982);
+    clip-path: polygon(0 3%, 100% 2%, 100% 85%, 0 100%, 0 100%, 0% 50%);
+}
+
+.download_BoldText{
+    color: #fbb44a !important;
+    font-weight: bold !important;
+    font-size: 26px  !important;
+    padding-bottom: 10px;
+}
+.download_lightText{
+    font-size: 15px;
+    line-height: 28px;
+    color: #fff;
+    margin: 0 0 25px;
+}
+
+.boxes_store{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -30px;
+}
+
+
+.contactHeading{
+    font-weight:  900 !important;
+    font-size: 30px;
+    margin: 0 0 15px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.contact-title{
+    display: block;
+margin: 0 auto;
+color: #7f2d92;
+font-size: 1.2em;
+font-weight: lighter;
+}
+
+.formBtn{
+    background-color: transparent;
+    color: #7f2d92;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.formBtn:focus{
+    outline: none;
+}
+
+
+@media(max-width:810px){
+    .border-img{
+        display: none !important;
+    }
+    .buttons{
+        justify-content: space-around;
+        display: block;
+        margin-top: 50px;
+    }
+    .button_downloadApp{
+        margin-top: 20px;
+    }
+    .middle_cardColumn{
+        margin: 70px 0 70px 0 ;
+    }
+
+    .nav-link{
+        font-size: 12px !important;
+    }
+    .video{
+        height: auto !important;
+        
+    }
+    .iframe_container{
+        border: none;
+    }
+    .paragraphLanding{
+        font-size: 22px;
+    }
+    .hero-wrap{
+        height: 100vh !important;
+    }
+    .button_downloadApp{
+        border: 5px solid #8C3590;
+        background-color:#fbb44a;
+        padding: 10px 10px 14px 10px !important;
+        width: 80%;
+    }
+    .button_learnMore{
+        padding: 10px 10px 14px 10px !important;
+        width: 80%;
+    }
+    .buttonMiddle2{
+        margin-top:30px !important;
+        margin-bottom: 30px;
+    }
+    .main_DownloadApp{
+        background: linear-gradient(0.25turn, #8C3590, #2C4982);
+        clip-path: polygon(0 3%, 100% 2%, 100% 100%, 0 100%, 0 100%, 0% 50%);
+    }
+    .download_BoldText{
+        font-size: 20px !important;
+    }
+    .downloadMedia{
+        padding: 0px !important;
+    }
+    .hero-wrap{
+        height: 100%;
+    }
+   
+    }
+
+@media(max-width:1300px){
+    .border-img{
+        display: none !important;
+    }
+}
+@media(max-width:320px){
+    .iframe_container{
+        display: none;
+    }
+}
