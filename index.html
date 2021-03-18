@@ -12,25 +12,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-
-    <title>Document</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+<title>Document</title>
 </head>
 
 <body>
 
     <!-- Navbar Start  -->
 
-    <div class="container-nav py-2">
+    <div class="container-nav py-4">
         <nav class="navbar navbar-expand-lg container">
-            <a class="navbar-brand ml-5" href="#"><span class="logo"><span><img src="./Images/logo.svg" width="40px"
+            <a class="navbar-brand" href="#"><span class="logo"><span><img src="./Images/logo.svg" width="40px"
                             height="36px" alt=""></span> Pi Network</a>
             <button class="navbar-toggler" style="color:black !important" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color: black !important;"></span>
+                <span class="navbar-toggler-icon"><i  class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto text-center">
                     <li class="nav-item active">
                         <a class="nav-link text-white text-uppercase mx-2" href="#">Home <span
                                 class="sr-only">(current)</span></a>
@@ -67,19 +68,19 @@
         <div class="container hero-container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-lg-6">
-                    <div class="mt-5">
+                    <div  data-aos="fade-up" class="mt-5">
                         <h3 class="headingBold">The First Digital Currency You Can</h3>
                         <h3 class="headingBold pt-2">Mine On Your Phone</h3>
                         <p class="text-white  paragraphLanding ">Start earning cryptocurrency today with our free,
                             energy-light mobile app.</p>
                     </div>
-                    <div class="buttons">
+                    <div data-aos="fade-right" class="buttons">
                         <div><button class="button_learnMore">Learn More</button></div>
                         <div> <button class="button_downloadApp">Download App</button></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-lg-6">
-                    <div class="iframe_container">
+                    <div  data-aos="zoom-in" class="iframe_container">
                         <iframe class="video"
                             src="https://www.youtube.com/embed/MsOaC61cR3U?autoplay=0&amp;rel=0&amp;modestbranding=1"
                             frameborder="0"
@@ -112,12 +113,12 @@
         <div class="container_middle">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-lg-6" style="align-items: center; justify-self: center;">
-                    <img src="./Images/middle-image.png" class="img-fluid" width="560px" alt="">
+                    <img data-aos="fade-right" data-aos-duration="400" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" src="./Images/middle-image.png" class="img-fluid" width="560px" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12 col-lg-6 middle_right mt-3">
                    <div style="justify-content: center !important; align-items: center !important; display: block;">
-                    <p class="text-center pb-4 textCrypto">Pi makes crypto mining easy</p>
-                    <p class="text-center textCrypto">Breakthrough tech allows you to mine on your phone without draining your battery.</p>
+                    <p class="text-center pb-4 textCrypto" data-aos="fade-up" data-aos-duration="600">Pi makes crypto mining easy</p>
+                    <p class="text-center textCrypto" data-aos="fade-up" data-aos-duration="500">Breakthrough tech allows you to mine on your phone without draining your battery.</p>
                     <div class="buttonMiddle">
                         <Button class="btnMiddleDesign">Learn the Tech</Button>
                     </div>
@@ -135,7 +136,7 @@
         <div class="row">
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div style="align-items: center; justify-self: center; display: flex; flex-direction: column;">
-                <div class="card_container">
+                <div class="card_container"  data-aos="flip-left">
                     <div class="imageCard" style="display: flex; align-items: center; justify-content: center;">
                      <img src="./Images/decent.png" height="80px" width="80px" style="margin-bottom: 20px;" alt="">
                     </div>
@@ -146,7 +147,7 @@
               </div>
             <div class="col-md-4 col-lg-4 col-sm-12 middle_cardColumn">
                 <div style="align-items: center; justify-self: center; display: flex; flex-direction: column;">
-                    <div class="card_container">
+                    <div class="card_container"  data-aos="flip-up">
                         <div class="imageCard" style="display: flex; align-items: center; justify-content: center;">
                          <img src="./Images/mob-first.png" height="80px" width="80px" style="margin-bottom: 20px;" alt="">
                         </div>
@@ -157,7 +158,7 @@
             </div>
             <div class="col-md-4 col-lg-4 col-sm-12 ">
                 <div style="align-items: center; justify-self: center; display: flex; flex-direction: column;">
-                    <div class="card_container">
+                    <div class="card_container"  data-aos="flip-right">
                         <div class="imageCard" style="display: flex; align-items: center; justify-content: center;">
                          <img src="./Images/user-friend.png" height="80px" width="80px" style="margin-bottom: 20px;" alt="">
                         </div>
@@ -185,12 +186,12 @@
         <div class="container p-5">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-md-12">
-                    <div style="display: flex; justify-content: center; align-items: center; padding: 30px;">
+                    <div data-aos="fade-right" style="display: flex; justify-content: center; align-items: center; padding: 30px;">
                         <img src="https://minepi.com/assets/app-1712b47542ac464239ccbba3cba9f27f6bec77e06af534905af22afd9333549e.png" width="200px" height="auto" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-md-12">
-                    <div style="padding:30px;" class="downloadMedia">
+                    <div data-aos="fade-down" style="padding:30px;" class="downloadMedia">
                        <div style="margin-top: 30px;">
                         <h4 class="download_BoldText">Download the mobile app to start earning <span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">today</span>! Join the beta.</h4>
                         <p class="download_lightText"><span>Keep your money!&nbsp;</span>Pi is free. All you need is an invitation from an existing trusted member on the network. If you have an invitation you can download the mobile app below.</p>
@@ -211,26 +212,30 @@
 
     <!-- Conttact Start  -->
     
-    <div class="container mt-5">
+    <div class="container mt-5 mb-4"
+    data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500"
+    >
         <h2 class="text-center contactHeading">Contact Us</h2>
         <p class="text-center contact-title">Drop us a line! We will reach out to you & answer all your questions personally. Recurring questions will be added to the FAQ page.</p>
         <div style="margin-top: 30px; margin-bottom: 30px;">
-            <div class="container">
-                <form>
-                    <div class="row">
-                      <div class="col">
-                        <input type="text" style="padding: 10px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" class="form-control" placeholder="First Name">
-                      </div>
-                      <div class="col">
-                        <input type="text" style="padding: 10px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" class="form-control" placeholder="Last Name">
-                      </div>
-                    </div>
-                    <div class="row my-3 mx-1">
-                        <input type="text" style="padding: 10px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" class="form-control" placeholder="Email Address">
-                    </div>
-                    <textarea style="padding: 10px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" placeholder="Your Comments" id="message" cols="20" rows="8" class="form-control" name="message[message]" required="" data-error="Please enter your comments"></textarea>
-                    <Button class="formBtn">Send</Button>
-                </form>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 offset-lg-1 offset-sm-0">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" style="padding: 15px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" style="padding: 15px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" class="form-control lastname" placeholder="Last Name">
+                            </div>
+                        </div>
+                            <input type="text" style="padding: 15px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" class="form-control my-3" placeholder="Email Address">
+                        <textarea style="padding: 15px; background-color: #f3f3f3; border: 1px solid #e1e1e1;" placeholder="Your Comments" id="message" cols="20" rows="8" class="form-control" name="message[message]" required="" data-error="Please enter your comments"></textarea>
+                        <Button class="formBtn">Send</Button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -241,9 +246,29 @@
     <!-- footer start  -->
 
 
-    <footer>
+    <footer  data-aos="fade-up"
+    data-aos-duration="700"
+     class="footer_container">
         <div class="container-fluid">
-            
+            <div class="container mainFooterIcons">
+                  <div style="display: flex; justify-content: center; align-items: center;">
+                    <div>
+                        <i class="fa fa-facebook-square icons_social mx-3 fa-2x"  aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <i class="fa fa-twitter-square icons_social mx-3 fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <i class="fa fa-linkedin-square icons_social mx-3 fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <i class="fa fa-instagram icons_social mx-3 fa-2x" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                    <div class="mt-4">
+                        <p class="footerTxt">© 2020 SocialChain Inc. | All rights reserved.</p>
+                    </div>
+            </div>
         </div>
     </footer>
 
@@ -261,6 +286,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

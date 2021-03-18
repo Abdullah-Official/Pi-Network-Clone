@@ -40,7 +40,6 @@
 }
 
 .nav-link:hover{
-    width: 100%;
     color:#fbb44a !important;
     text-decoration: underline !important;
 }
@@ -59,7 +58,7 @@
 }
 .border-img{
     position: absolute;
-    bottom: 4rem;
+    bottom: 2rem;
     z-index: 111111;
 }
 .video{
@@ -229,9 +228,50 @@ font-weight: lighter;
 .formBtn:focus{
     outline: none;
 }
+.footer_container{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+    height: auto;
+    background: #1D0A26;
+    padding: 50px;
+}
+.mainFooterIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons_social{
+    color: #aaa;
+    transition: 0.5s ease;
+}
+.icons_social:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.footerTxt{
+    margin: 0;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 15px;
+    text-align: center;
+}
+.navbar-toggler-icon{
+    color: #fbb44a !important;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar-brand{
+    margin-right: 30px !important;
+}
 
-
-@media(max-width:810px){
+@media(max-width:810px) and (min-width:240px){
+    .lastname{
+        margin-top: 18px;
+    }
+   
     .border-img{
         display: none !important;
     }
@@ -290,7 +330,21 @@ font-weight: lighter;
     .hero-wrap{
         height: 100%;
     }
-   
+    .footerTxt{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .contact-title{
+        display: block;
+    color: #7f2d92;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center !important;
+    }
+    .inputFieldsNames{
+        display: block;
+    }
+
     }
 
 @media(max-width:1300px){
@@ -301,5 +355,11 @@ font-weight: lighter;
 @media(max-width:320px){
     .iframe_container{
         display: none;
+    }
+    .formNames{
+        width: 300px !important;
+    }
+    .formNames1{
+        width: 300px !important;
     }
 }
